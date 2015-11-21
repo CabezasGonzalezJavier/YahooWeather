@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="activity_main_on_request_error">Request error</string>
+    <string name="activity_main_general_error">General error</string>
+    <string name="activity_main_no_internet">No internet</string>
+</resources>
