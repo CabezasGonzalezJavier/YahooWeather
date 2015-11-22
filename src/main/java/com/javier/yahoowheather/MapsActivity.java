@@ -241,7 +241,7 @@ public class MapsActivity extends FragmentActivity implements GoogleMap.OnCamera
     public void onCameraChange(CameraPosition cameraPosition) {
         Log.d(sTAG, "onCameraChange");
         Long current = System.currentTimeMillis();
-        if (current >mLastTime+9000){
+        if (current >mLastTime+1000){
 
                 mWeatherPresenter = new WeatherPresenterImpl(this);
                 Location location = new Location("");
